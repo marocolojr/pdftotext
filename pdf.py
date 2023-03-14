@@ -1,7 +1,7 @@
 import PyPDF2
 
 # abrir o arquivo pdf em modo de leitura binária
-with open('C:\\Users\\maroc\\Documents\\PDF_PHyton\\DA.pdf', 'rb') as pdf_file:
+with open('Documents\\PDF_PHyton\\DA.pdf', 'rb') as pdf_file:
     # criar um objeto de leitura de PDF
     pdf_reader = PyPDF2.PdfReader(pdf_file)
 
