@@ -14,5 +14,5 @@ with open('Documents\\PDF_PHyton\\DA.pdf', 'rb') as pdf_file:
         page_text = page.extract_text()
         text += page_text
 
-    # exibir o texto extraído
+    # exibir o texto extraído. V2
     print(text)
