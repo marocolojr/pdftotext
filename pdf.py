@@ -15,5 +15,5 @@ with open('C:\\Users\\maroc\\Documentos\\CODE\\pdftotext\\DA.pdf', 'rb') as pdf_
         page_text = page.extract_text()
         text += page_text
 
-    # exibir o texto extraído. V3
+    # show text
     print(text)
