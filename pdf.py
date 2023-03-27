@@ -1,7 +1,8 @@
 import PyPDF2
 
 
-with open('Documents\\PDF_PHyton\\DA.pdf', 'rb') as pdf_file:
+with open('C:\\Users\\maroc\\Documentos\\CODE\\pdftotext\\DA.pdf', 'rb') as pdf_file:
+
 
     pdf_reader = PyPDF2.PdfReader(pdf_file)
 
@@ -14,5 +15,5 @@ with open('Documents\\PDF_PHyton\\DA.pdf', 'rb') as pdf_file:
         page_text = page.extract_text()
         text += page_text
 
-    # exibir o texto extraído. V2
+    # exibir o texto extraído. V3
     print(text)
